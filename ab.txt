@@ -1,1 +1,128 @@
 i am sabit rahman
+
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (master)
+$ git config --global user.name "sabit-boss"
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (master)
+$ git config --global user.email "sabitrahmansr1001@gmail.com"
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (master)
+$ git init
+Initialized empty Git repository in C:/Users/student/Documents/github/.git/
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (master)
+$ git config --global --list
+user.name=sabit-boss
+user.email=sabitrahmansr1001@gmail.com
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (master)
+$ git remote add origin hthttps://github.com/sabit-boss/softwareLab.git
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (master)
+$ git branch -M main
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git add .
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git commit -m "Initial Commint"
+[main (root-commit) 5eae685] Initial Commint
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ab.txt
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git remote add origin https://github.com/sabit-boss/softwareLab.git
+error: remote origin already exists.
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git push -u origin main
+fatal: protocol 'https' is not supported
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git push -u origin main
+fatal: protocol 'https' is not supported
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git push -u origin main
+fatal: protocol 'https' is not supported
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git remote set-url origin https://github.com/sabit-boss/softwareLab.git
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git add .
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git commit -m "Initial Commint"
+On branch main
+nothing to commit, working tree clean
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git push -u origin main
+remote: Permission to sabit-boss/softwareLab.git denied to rohanbdf-ux.
+fatal: unable to access 'https://github.com/sabit-boss/softwareLab.git/': The requested URL returned error: 403
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ $ git config --global --list
+bash: $: command not found
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git config --global --list
+user.name=sabit-boss
+user.email=sabitrahmansr1001@gmail.com
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git push -u origin main
+
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 217 bytes | 108.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sabit-boss/softwareLab.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git add ab.txt
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git commit -m "2nd commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git commit -m "2nd commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ab.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git add ab.txt
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git commit -m "2nd commit"
+[main 46d8456] 2nd commit
+ 1 file changed, 1 insertion(+)
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 257 bytes | 128.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sabit-boss/softwareLab.git
+   5eae685..46d8456  main -> main
+
+student@DESKTOP-MPUH97H MINGW64 ~/Documents/github (main)
