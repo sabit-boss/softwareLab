@@ -1,3 +1,21 @@
 sabit rahman
 This a new line for testing
 This a second new line for tesing
+
+++++++for an existing project++++++++
+don't run git init
+git clone [url] //clones the git repository
+cd [directory name]
+git pull // everytime before working on the project
+git add [file name] or git add . [for adding all the files inside the folder]
+git commit -m "commit message" // locks the files on the staging area
+git push or git push -u origin main // for the first time // final upload command
+
+
++++++++for fresh project++++++++
+git init // after navigating to the project directory
+git add [file name] or git add . // for all the files inside the directory
+git commit -m "commit message"
+git branch -M main
+git remote add origin [repository url] // connects the github repository with the local git directory
+git push -u origin main // for the first time or just git push
