@@ -19,3 +19,4 @@ git commit -m "commit message"
 git branch -M main
 git remote add origin [repository url] // connects the github repository with the local git directory
 git push -u origin main // for the first time or just git push
+git config --global credential.helper store
